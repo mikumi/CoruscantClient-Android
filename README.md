@@ -5,7 +5,7 @@ We want to build a simple client app that looks up a person via an API and displ
 #### API
 
 - *URL to look up a person:* `https://coruscant-one.firebaseio.com/people/{name}.json`
-- *URL Parameter:* `"auth" : {auth_token}`
+- *Query Parameter:* `"auth" : {auth_token}`
 - *Return:* A person with format:
 ```{ 
  “name” : “A name”,
@@ -17,9 +17,9 @@ We want to build a simple client app that looks up a person via an API and displ
 
 The UI should be very simple:
 
-- A `EditText` to enter the name of the person that we want to look up
-- A submit `Button` to submit the request
-- Anything to display the fetched name, age and job (e.g. via a `TextView`)
+- A way to enter the name of the person that we want to look up (e.g. via a text field)
+- A submit button to submit the request
+- Anything to display the fetched name, age and job
 
 #### Use this information for testing
 
