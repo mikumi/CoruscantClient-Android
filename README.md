@@ -1,6 +1,6 @@
 # CoruscantClient-Android
 
-We want to build a simple client app that looks up a person via an API and displays the fetched name, age and job on the client.
+We want to build a **simple** client app that looks up a person via an API and displays the fetched name, age and job on the client.
 
 #### API
 
@@ -29,4 +29,5 @@ The UI should be very simple:
 #### Notes
 
 - You can either fetch this repository (empty project) or create a project from scratch
-- You can use anyting that you would use in your normal job as well (Google, Stackoverflow ...)
+- You can use *anyting* that you would use in your normal job as well (Google, Stackoverflow ...)
+- Keep it simple. Time is limited to 30 minutes
