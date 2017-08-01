@@ -6,7 +6,7 @@ We want to build a **quick & simple** client app that looks up a person via an A
 
 - *URL to look up a person:* `https://coruscant-one.firebaseio.com/people/{name}.json`
 - *Query Parameter:* `"auth" : {auth_token}`
-- *Return:* A person with format:
+- *Returns:* A person with the format:
 ```
 { 
  “name” : “A name”,
@@ -15,7 +15,7 @@ We want to build a **quick & simple** client app that looks up a person via an A
 }
 ```
 
-#### Create an simple UI
+#### Create a simple UI
 
 The UI should be **very** simple:
 
@@ -32,4 +32,4 @@ The UI should be **very** simple:
 
 - You can either fetch this repository (empty project) or create a project from scratch
 - You can use *anyting* that you would use in your normal job as well (Google, Stackoverflow ...)
-- Keep it simple. Time is limited to 30 minutes
+- Keep it simple. **Time is limited to 30 minutes**
